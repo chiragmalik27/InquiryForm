@@ -37,10 +37,10 @@ Project Root
 
 ## Screenshots 📸
 
-![Data Received](https://github.com/Skizzy-create/InquiryForm/blob/main/Data%20Recived.png)
+![Data Received](https://github.com/chiragmalik27/InquiryForm/blob/main/Data%20Recived.png)
 _Data received from the form_
 
-![Form Layout](https://github.com/Skizzy-create/InquiryForm/blob/main/Form%20Layout.png)
+![Form Layout](https://github.com/chiragmalik27/InquiryForm/blob/main/Form%20Layout.png)
 _Layout of the form_
 
 ## Getting Started 🚀
