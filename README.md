@@ -7,7 +7,7 @@
 
 InquiryForm is a simple web application that allows users to submit inquiries through a form. The data is then sent to a server where it can be stored and retrieved. It is just a simple project made by my friend and me for fun, adding all what we learn
 
-## Project Structure 📂
+## Project Structure 📂g
 
 ```
 Project Root
@@ -19,8 +19,14 @@ Project Root
 │       │   userRoutes.js
 │
 └───Frontend
-    │   form.css
-    │   index.html
+    ├───login
+    │   │   loginpage.html
+    │   │   loginpage.css
+    │
+    └───signup
+        │   form.css
+        │   index.html
+
 ```
 
 ## Tech Stack 💻
