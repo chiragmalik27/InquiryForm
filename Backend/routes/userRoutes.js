@@ -4,6 +4,10 @@ const router = express.Router();
 
 let inquiries = [];
 
+router.get('/', function(req, res){
+    res.send("Hello World");
+});
+
 router.get('/login', function(req, res){
     res.sendFile(path.join(__dirname, '../../Frontend/login/loginpage.html'));
 });
