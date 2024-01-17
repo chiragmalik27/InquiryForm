@@ -47,7 +47,7 @@ Project Root
 To get started, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/Skizzy-create/InquiryForm.git
+git clone https://github.com/chiragmalik27/InquiryForm.git
 cd InquiryForm/Backend
 npm install
 ```
