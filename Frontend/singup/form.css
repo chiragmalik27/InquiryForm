@@ -9,7 +9,7 @@ body {
 
 .Inquiry-form {
     background-color: white;
-    background-image: url("../Background.jpg");
+    background-image: url("./Background.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
