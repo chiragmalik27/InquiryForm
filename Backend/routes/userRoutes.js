@@ -5,11 +5,11 @@ const router = express.Router();
 let inquiries = [];
 
 router.get('/', function(req, res){
-    res.send("Hello World");
+    res.json("Hello World").sendStatus(200);
 });
 
 router.get('/login', function(req, res){
-    res.sendFile(path.join(__dirname, '../../Frontend/login/loginpage.html'));
+    res.status(200).sendFile(path.join(__dirname, '../../Frontend/login/loginpage.html'));
 });
 
 router.get('/singup', function(req, res){
