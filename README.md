@@ -3,6 +3,7 @@
 ![HTML](https://img.shields.io/badge/-HTML-red)
 ![CSS](https://img.shields.io/badge/-CSS-blue)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow)
+![Node.js](https://img.shields.io/badge/-Node.js-green)
 ![Express.js](https://img.shields.io/badge/-Express.js-lightgrey)
 
 InquiryForm is a simple web application that allows users to submit inquiries through a form. The data is then sent to a server where it can be stored and retrieved. It is just a simple project made by my friend and me for fun, adding all what we learn
