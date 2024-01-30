@@ -13,10 +13,20 @@
     <title>Inquiry Form</title>
   </head>
 
+  <script>
+    function submit(e) {
+      e.preventDefault();
+      alert("Form submitted successfully!");
+    }
+  </script>
   <body>
     <div class="Inquiry-form">
       <div class="container">
-        <form action="http://localhost:3000/inquiry" method="POST">
+        <form
+          action="http://localhost:3000/inquiry"
+          method="POST"
+          onsubmit="submit"
+        >
           <h1 class="text-center">INQUIRY FORM</h1>
           <br />
 
@@ -103,7 +113,7 @@
             <input
               class="form-check-input"
               type="checkbox"
-              value=""
+              value="0"
               id="Register Me"
               name="register"
             />
@@ -112,7 +122,7 @@
             </label>
           </div>
           <div class="sub-button mt-3 text-center">
-            <button type="submit" class="btn btn-outline-success">
+            <button onclick="submit" class="btn btn-outline-success">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
